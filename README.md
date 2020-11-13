@@ -8,16 +8,19 @@
 
 ## Overview
 ### Description
-[Description of your app]
+Allows dog owners to connect and schedule time to take their dogs to go to parks and meet up for play dates.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Social, Lifestyle
+- **Mobile:** GPS, Camera
+- **Story:** Creates connections between dog owners. Allows for dogs and their owners to meet and have fun social interactions safely, with other dogs that match well in the same area.
+- **Market:** Dog owners who want to socialize over their pets.
+- **Habit:** Dog owners can be notified a few times a week to take their dogs out for longer trips / to parks to socialize. User can be more engaged if there is a timeline to add pictures.
+- **Scope:** MVP would consist of:
+    User able to build profiles for dogs
+    User would be able to find profiles of other dogs nearby
+    User would be able to schedule with / message other dog owners
+    (Opt) Timeline
 
 ## Product Spec
 
