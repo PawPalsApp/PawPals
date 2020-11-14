@@ -28,13 +28,17 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can create an account and login
+* User can create profiles for each of their dogs attached to their account
+* User can use their GPS location to explore the local area and find other dog owners
+* User can view local dog owner profiles
+* User can send messages to other dog owners and schedule playdates
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can also find nearby parks in the explore screen
+* User can post pictures to their dog's timeline and engage with other dogs' timelines
+* User can recieve push notifications a few times a week to take their dogs for longer walks / trips to a park to socialize.
 
 ### 2. Screen Archetypes
 
