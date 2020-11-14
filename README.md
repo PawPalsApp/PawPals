@@ -42,35 +42,52 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Launch screen
+   * This screen welcomes the user when opening the app for the first time.
+* Login screen
+   * If user has an account, this screen allows for logging in. 
+   * (Opt) If the user has logged into an account previously, this screen is opened upon launch.
+* Register screen
+   * If user does not have an account, this screen allows for creating one.
+* Messaging screen
+   * This screen allows the user to communicate with other users (1-on-1).
+* User (owner) profile screen
+   * This screen shows the user profile picture and the user's pets.
+* Pet profile screen
+   * This screen shows the pet profile picture and profile details.
+* Explore screen
+   * This screen shows a map of the local area and pins for locations of parks, landmarks, and nearby pets.
+* (Opt) Timeline screen
+   * This screen can show recent posts added in the local area.
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* (Opt) Timeline
+* Explore
+* Profile
+* Messaging
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Launch screen -> 
+   * Create account -> Profile
+   * Log in -> Profile
+* (Opt) Timeline ->
+   * Post details -> Post user's profile
+   * Post user's profile
+* Explore
+* Profile ->
+   * Add/edit pet
+   * Pet profile
+* Messaging -> Message detail
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+
+<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Interactive Prototype
 
