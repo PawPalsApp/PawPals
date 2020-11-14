@@ -90,7 +90,7 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 
 
 ### [BONUS] Interactive Prototype
-<img src="prototype.gif" width=600>
+<img src="prototype.gif">
 
 ## Schema 
 [This section will be completed in Unit 9]
