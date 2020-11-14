@@ -87,7 +87,9 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 
 ### [BONUS] Digital Wireframes & Mockups
 
+<img src="login_signup.jpg">
 
+<img src="screens.jpg">
 
 ### [BONUS] Interactive Prototype
 <img src="prototype.gif">
