@@ -38,7 +38,7 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 
 * User can also find nearby parks in the explore screen
 * User can post pictures to their dog's timeline and engage with other dogs' timelines
-* User can recieve push notifications a few times a week to take their dogs for longer walks / trips to a park to socialize.
+* User can receive push notifications a few times a week to take their dogs for longer walks / trips to a park to socialize.
 
 ### 2. Screen Archetypes
 
