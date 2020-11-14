@@ -87,9 +87,10 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 
 ### [BONUS] Digital Wireframes & Mockups
 
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
 
 ### [BONUS] Interactive Prototype
+<img src="prototype.gif" width=600>
 
 ## Schema 
 [This section will be completed in Unit 9]
