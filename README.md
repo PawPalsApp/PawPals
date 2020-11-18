@@ -95,10 +95,58 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 <img src="prototype.gif">
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+
+**User**
+|    Property    |    Type    |          Description          |
+|    --------    |    ----    |          -----------          |
+| email          | String     |                               |
+| password       | String     |                               |
+| username       | String     |                               |
+| createdAt      | DateTime   |                               |
+| friendsCount   | Number     |                               |
+
+**Pet**
+|    Property    |    Type    |          Description          |
+|    --------    |    ----    |          -----------          |
+| name           | String     |                               |
+| breed          | String     |                               |
+| age            | String     |                               |
+| gender         | String     |                               |
+| bio            | String     |                               |
+
+**Post**
+|    Property    |    Type    |          Description          |
+|    --------    |    ----    |          -----------          |
+| objectId       | String     |                               |
+| author         | Pointer    |                               |
+| image          | File       |                               |
+| caption        | Number     |                               |
+| commentsCount  | Number     |                               |
+| likesCount     | Number     |                               |
+| createdAt      | DateTime   |                               |
+| updatedAt      | DateTime   |                               |
+
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
+
+**List of network requests by screen**
+* Launch screen
+   * [Create basic snippets for each Parse network request]
+* Login screen
+   * [Create basic snippets for each Parse network request]
+* Register screen
+   * [Create basic snippets for each Parse network request]
+* Messaging screen
+   * [Create basic snippets for each Parse network request]
+* User (owner) profile screen
+   * [Create basic snippets for each Parse network request]
+* Pet profile screen
+   * [Create basic snippets for each Parse network request]
+* Explore screen
+   * [Create basic snippets for each Parse network request]
+* (Opt) Timeline screen
+   * [Create basic snippets for each Parse network request]
+   
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
