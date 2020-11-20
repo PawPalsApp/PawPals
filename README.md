@@ -126,7 +126,7 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 |    --------    |    ----    |          -----------                                   |
 | objectId       | String     | unique id for the post (default)                       |
 | author         | Pointer to User | image author                                      |
-| pets           | Array (of Pointer to Pet  | list of pets in image tagged by author  |
+| pets           | Array (of Pointer to Pet) | list of pets in image tagged by author  |
 | image          | File       | image that user posts                                  |
 | caption        | Number     | image caption by author                                |
 | commentCount   | Number     | number of comments on the post                         |
