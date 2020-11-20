@@ -155,20 +155,41 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 
 **List of network requests by screen**
 * Launch screen
-   * [Create basic snippets for each Parse network request]
 * Login screen
-   * [Create basic snippets for each Parse network request]
 * Register screen
-   * [Create basic snippets for each Parse network request]
+   * (Create/POST) Create a new user 
 * Messaging screen
-   * [Create basic snippets for each Parse network request]
+   * (Create/POST) Create a new message thread
+   * (Read/GET) Query all message threads where user is an author or recipient
+   * (Delete) Delete a message thread
+* Message detail screen
+   * (Create/POST) Create a new message
+   * (Read/GET) Query all messages in thread
+   * (Update/PUT) Update an existing message
+   * (Delete) Delete an existing message
 * User (owner) profile screen
-   * [Create basic snippets for each Parse network request]
+   * (Create/POST) Add a new pet
+   * (Read/GET) Query all pets where user is owner
+   * (Update/PUT) Update user details
+   * (Delete) Delete an existing pet
 * Pet profile screen
-   * [Create basic snippets for each Parse network request]
+   * (Create/POST) Create a new post (pet tagged automatically?)
+   * (Read/GET) Query all posts where pet is tagged
+   * (Update/PUT) Update/edit existing post where user is author
+   * (Delete) Delete existing post
 * Explore screen
-   * [Create basic snippets for each Parse network request]
+   * (Read/GET) Query all local dog parks
+   * (Read/GET) Query all nearby users/pets
 * (Opt) Timeline screen
-   * [Create basic snippets for each Parse network request]
+   * (Read/GET) Query all posts in user's local area
+   * (Create/POST) Create a new like on a post
+   * (Delete) Delete existing like
+* (Opt) Post detail screen
+   * (Create/POST) Create a new like on the post
+   * (Delete) Delete existing like
+   * (Create/POST) Create a new comment on the post
+   * (Update/PUT) Update/edit an existing comment
+   * (Delete) Delete existing comment
    
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+**Google Maps API**
+https://guides.codepath.com/android/Google-Maps-Fragment-Guide
