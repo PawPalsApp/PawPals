@@ -108,6 +108,8 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 | createdAt      | DateTime   | date when the post is created (default)                |
 | friends        | Array (of Pointer to User) | list of friends of user                |
 | profileImage   | File       | profile image url                                      |
+| createdAt      | DateTime   | date when the user profile is created (default)        |
+| updatedAt      | DateTime   | date when the user was last updated (default)          |
 
 **Pet**
 |    Property    |    Type    |          Description                                   |
@@ -120,6 +122,8 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 | gender         | String     | pet gender                                             |
 | bio            | String     | description about pet                                  |
 | petImage       | File       | pet profile image url                                  |
+| createdAt      | DateTime   | date when the pet profile is created (default)         |
+| updatedAt      | DateTime   | date when the pet is last updated (default)            |
 
 **Post**
 |    Property    |    Type    |          Description                                   |
@@ -128,13 +132,13 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 | author         | Pointer to User | image author                                      |
 | pets           | Array (of Pointer to Pet) | list of pets in image tagged by author  |
 | image          | File       | image that user posts                                  |
-| caption        | Number     | image caption by author                                |
+| caption        | String     | image caption by author                                |
 | commentCount   | Number     | number of comments on the post                         |
 | likeCount      | Number     | number of likes for the post                           |
 | createdAt      | DateTime   | date when the post is created (default)                |
 | updatedAt      | DateTime   | date when the post is last updated (default)           |
 
-**Comments**
+**Comment**
 |    Property    |    Type    |          Description                                   |
 |    --------    |    ----    |          -----------                                   |
 | objectId       | String     | unique id for the post (default)                       |
@@ -143,16 +147,18 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 | text           | String     | the comment's text                                     |
 | parentId       | String     | unique id of the parent comment                        |
 | likeCount      | Number     | number of likes for the post                           |
-| createdAt      | DateTime   | date when the post is created (default)                |
-| updatedAt      | DateTime   | date when the post is last updated (default)           |
+| createdAt      | DateTime   | date when the comment is created (default)             |
+| updatedAt      | DateTime   | date when the comment is last updated (default)        |
 
-**Messages**
+**Message**
 |    Property    |    Type    |          Description                                   |
 |    --------    |    ----    |          -----------                                   |
 | objectId       | String     | unique id for the message (default)                    |
 | author         | Pointer to User | message author                                    |
 | recipient      | Pointer to User | message recipient                                 |
 | body           | String     | the message's contents                                 |
+| createdAt      | DateTime   | date when the message is created (default)             |
+| updatedAt      | DateTime   | date when the message is last updated (default)        |
 
 ### Networking
 
