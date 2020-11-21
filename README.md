@@ -144,8 +144,8 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 | objectId       | String     | unique id for the post (default)                       |
 | author         | Pointer to User | comment author                                    |
 | post           | Pointer to Post | post that comment refers to                       |
+| parentId       | Pointer to Comment | unique id of the parent comment                |
 | text           | String     | the comment's text                                     |
-| parentId       | String     | unique id of the parent comment                        |
 | likeCount      | Number     | number of likes for the post                           |
 | createdAt      | DateTime   | date when the comment is created (default)             |
 | updatedAt      | DateTime   | date when the comment is last updated (default)        |
@@ -156,7 +156,7 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 | objectId       | String     | unique id for the message (default)                    |
 | author         | Pointer to User | message author                                    |
 | recipient      | Pointer to User | message recipient                                 |
-| body           | String     | the message's contents                                 |
+| text           | String     | the message's contents                                 |
 | createdAt      | DateTime   | date when the message is created (default)             |
 | updatedAt      | DateTime   | date when the message is last updated (default)        |
 
