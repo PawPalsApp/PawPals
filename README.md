@@ -28,17 +28,17 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 
 **Required Must-have Stories**
 
-* User can create an account and login
-* User can create profiles for each of their dogs attached to their account
-* User can use their GPS location to explore the local area and find other dog owners
-* User can view local dog owner profiles
-* User can send messages to other dog owners and schedule playdates
+* [x] User can create an account and login
+* [ ] User can create profiles for each of their dogs attached to their account
+* [ ] User can use their GPS location to explore the local area and find other dog owners
+* [ ] User can view local dog owner profiles
+* [ ] User can send messages to other dog owners and schedule playdates
 
 **Optional Nice-to-have Stories**
 
-* User can also find nearby parks in the explore screen
-* User can post pictures to their dog's timeline and engage with other dogs' timelines
-* User can receive push notifications a few times a week to take their dogs for longer walks / trips to a park to socialize.
+* [ ] User can also find nearby parks in the explore screen
+* [ ] User can post pictures to their dog's timeline and engage with other dogs' timelines
+* [ ] User can receive push notifications a few times a week to take their dogs for longer walks / trips to a park to socialize.
 
 ### 2. Screen Archetypes
 
@@ -99,66 +99,66 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 ### Models
 
 **User**
-|    Property    |    Type    |          Description                                   |
-|    --------    |    ----    |          -----------                                   |
-| objectId       | String     | unique id for the user (default)                       |
-| email          | String     | user email                                             |
-| password       | String     | user password                                          |
-| username       | String     | user username / display name                           |
-| createdAt      | DateTime   | date when the post is created (default)                |
-| friends        | Array (of Pointer to User) | list of friends of user                |
-| profileImage   | File       | profile image url                                      |
-| createdAt      | DateTime   | date when the user profile is created (default)        |
-| updatedAt      | DateTime   | date when the user was last updated (default)          |
+|    Property    |    Type                    |          Description                                   |
+|    --------    |    ----                    |          -----------                                   |
+| objectId       | String                     | unique id for the user (default)                       |
+| email          | String                     | user email                                             |
+| password       | String                     | user password                                          |
+| username       | String                     | user username / display name                           |
+| createdAt      | DateTime                   | date when the post is created (default)                |
+| friends        | Array (of Pointer to User) | list of friends of user                                |
+| profileImage   | File                       | profile image url                                      |
+| createdAt      | DateTime                   | date when the user profile is created (default)        |
+| updatedAt      | DateTime                   | date when the user was last updated (default)          |
 
 **Pet**
-|    Property    |    Type    |          Description                                   |
-|    --------    |    ----    |          -----------                                   |
-| objectId       | String     | unique id for the pet (default)                        |
-| owner          | Pointer to User | pet owner                                         |
-| name           | String     | pet name                                               |
-| breed          | String     | pet breed                                              |
-| age            | String     | pet age                                                |
-| gender         | String     | pet gender                                             |
-| bio            | String     | description about pet                                  |
-| petImage       | File       | pet profile image url                                  |
-| createdAt      | DateTime   | date when the pet profile is created (default)         |
-| updatedAt      | DateTime   | date when the pet is last updated (default)            |
+|    Property    |    Type         |          Description                                   |
+|    --------    |    ----         |          -----------                                   |
+| objectId       | String          | unique id for the pet (default)                        |
+| owner          | Pointer to User | pet owner                                              |
+| name           | String          | pet name                                               |
+| breed          | String          | pet breed                                              |
+| age            | String          | pet age                                                |
+| gender         | String          | pet gender                                             |
+| bio            | String          | description about pet                                  |
+| petImage       | File            | pet profile image url                                  |
+| createdAt      | DateTime        | date when the pet profile is created (default)         |
+| updatedAt      | DateTime        | date when the pet is last updated (default)            |
 
 **Post**
-|    Property    |    Type    |          Description                                   |
-|    --------    |    ----    |          -----------                                   |
-| objectId       | String     | unique id for the post (default)                       |
-| author         | Pointer to User | image author                                      |
-| pets           | Array (of Pointer to Pet) | list of pets in image tagged by author  |
-| image          | File       | image that user posts                                  |
-| caption        | String     | image caption by author                                |
-| commentCount   | Number     | number of comments on the post                         |
-| likeCount      | Number     | number of likes for the post                           |
-| createdAt      | DateTime   | date when the post is created (default)                |
-| updatedAt      | DateTime   | date when the post is last updated (default)           |
+|    Property    |    Type                   |          Description                                   |
+|    --------    |    ----                   |          -----------                                   |
+| objectId       | String                    | unique id for the post (default)                       |
+| author         | Pointer to User           | image author                                           |
+| pets           | Array (of Pointer to Pet) | list of pets in image tagged by author                 |
+| image          | File                      | image that user posts                                  |
+| caption        | String                    | image caption by author                                |
+| commentCount   | Number                    | number of comments on the post                         |
+| likeCount      | Number                    | number of likes for the post                           |
+| createdAt      | DateTime                  | date when the post is created (default)                |
+| updatedAt      | DateTime                  | date when the post is last updated (default)           |
 
 **Comment**
-|    Property    |    Type    |          Description                                   |
-|    --------    |    ----    |          -----------                                   |
-| objectId       | String     | unique id for the post (default)                       |
-| author         | Pointer to User | comment author                                    |
-| post           | Pointer to Post | post that comment refers to                       |
-| parentId       | Pointer to Comment | unique id of the parent comment                |
-| text           | String     | the comment's text                                     |
-| likeCount      | Number     | number of likes for the post                           |
-| createdAt      | DateTime   | date when the comment is created (default)             |
-| updatedAt      | DateTime   | date when the comment is last updated (default)        |
+|    Property    |    Type            |          Description                                   |
+|    --------    |    ----            |          -----------                                   |
+| objectId       | String             | unique id for the post (default)                       |
+| author         | Pointer to User    | comment author                                         |
+| post           | Pointer to Post    | post that comment refers to                            |
+| parentId       | Pointer to Comment | unique id of the parent comment                        |
+| text           | String             | the comment's text                                     |
+| likeCount      | Number             | number of likes for the post                           |
+| createdAt      | DateTime           | date when the comment is created (default)             |
+| updatedAt      | DateTime           | date when the comment is last updated (default)        |
 
 **Message**
-|    Property    |    Type    |          Description                                   |
-|    --------    |    ----    |          -----------                                   |
-| objectId       | String     | unique id for the message (default)                    |
-| author         | Pointer to User | message author                                    |
-| recipient      | Pointer to User | message recipient                                 |
-| text           | String     | the message's contents                                 |
-| createdAt      | DateTime   | date when the message is created (default)             |
-| updatedAt      | DateTime   | date when the message is last updated (default)        |
+|    Property    |    Type         |          Description                                   |
+|    --------    |    ----         |          -----------                                   |
+| objectId       | String          | unique id for the message (default)                    |
+| author         | Pointer to User | message author                                         |
+| recipient      | Pointer to User | message recipient                                      |
+| text           | String          | the message's contents                                 |
+| createdAt      | DateTime        | date when the message is created (default)             |
+| updatedAt      | DateTime        | date when the message is last updated (default)        |
 
 ### Networking
 
