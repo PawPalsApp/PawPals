@@ -2,9 +2,10 @@
 
 ## Table of Contents
 1. [Overview](#Overview)
-1. [Product Spec](#Product-Spec)
-1. [Wireframes](#Wireframes)
-2. [Schema](#Schema)
+2. [Product Spec](#Product-Spec)
+3. [Wireframes](#Wireframes)
+4. [Schema](#Schema)
+5. [Progress](#Progress)
 
 ## Overview
 ### Description
@@ -202,3 +203,8 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
    
 **Google Maps API**
 https://guides.codepath.com/android/Google-Maps-Fragment-Guide
+
+## Progress
+### Sprint 1
+
+![alt text](sprint1progress.gif)
