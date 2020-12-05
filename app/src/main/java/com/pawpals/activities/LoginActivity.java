@@ -19,9 +19,9 @@ import com.pawpals.R;
 public class LoginActivity extends AppCompatActivity {
 
     public static final String TAG = "LoginActivity";
+
     private EditText etEmail;
     private EditText etPassword;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +45,6 @@ public class LoginActivity extends AppCompatActivity {
         tvSignUp.setOnClickListener(v -> goSignUpActivity());
     }
 
-
     private void loginUser(String email, String password) {
         Log.i(TAG, "Attempting to login user " + email);
         ParseUser.logInInBackground(email, password, (user, e) -> {
@@ -60,13 +59,11 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-
     private void goSignUpActivity() {
         Intent i = new Intent(this, SignUpActivity.class);
         startActivity(i);
         finish();
     }
-
 
     private void goMainActivity() {
         Intent i = new Intent(this, MainActivity.class);

@@ -13,4 +13,6 @@
     <string name="messages">Messages</string>
     <string name="profile">Profile</string>
     <string name="explore">Explore</string>
+    <string name="pet_picture">Pet picture</string>
+    <string name="user_profile_image">User profile image</string>
 </resources>
