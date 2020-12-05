@@ -13,17 +13,17 @@
         android:layout_height="match_parent"
         android:layout_weight="1.5"/>
 
-    <LinearLayout
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeContainer"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="@color/primary_light">
-        <!-- TODO: Update blank fragment layout -->
-        <TextView
+        android:background="@color/primary_light"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvNearby"
+            android:padding="8dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/explore" />
-    </LinearLayout>
-
+            android:layout_height="match_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 </LinearLayout>
