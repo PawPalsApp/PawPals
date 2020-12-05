@@ -105,9 +105,4 @@ public class ProfileFragment extends Fragment {
             adapter.notifyDataSetChanged();
         });
     }
-
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-    }
 }
