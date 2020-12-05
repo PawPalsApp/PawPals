@@ -30,7 +30,9 @@ Allows dog owners to connect and schedule time to take their dogs to go to parks
 **Required Must-have Stories**
 
 * [x] User can create an account and login
+* [x] User can view their own profile
 * [ ] User can create profiles for each of their dogs attached to their account
+* [x] User can see locations of other dog owners
 * [ ] User can use their GPS location to explore the local area and find other dog owners
 * [ ] User can view local dog owner profiles
 * [ ] User can send messages to other dog owners and schedule playdates
@@ -208,3 +210,6 @@ https://guides.codepath.com/android/Google-Maps-Fragment-Guide
 ### Sprint 1
 
 ![alt text](sprint1progress.gif)
+
+### Sprint 2
+![alt text](sprint2progress.gif)
